@@ -1,12 +1,12 @@
-# PyCharm
+
 .idea/
 
-# Кэш Python
+
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Окружение
+
 venv/
 .venv/
 env/
