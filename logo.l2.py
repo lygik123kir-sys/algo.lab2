@@ -66,7 +66,6 @@ def radix_sort_by_ip(logs):
             result.extend(bucket)
     return result
 
-# ЗАПУСК, ЗАМЕРЫ И РАСПИСАННЫЙ ОТЧЕТ
 
 if __name__ == "__main__":
     names = [
@@ -114,7 +113,7 @@ if __name__ == "__main__":
 
     sample_ips = [
         f"{random.randint(1, 255)}.{random.randint(0, 255)}.{random.randint(0, 255)}.{random.randint(1, 254)}"
-        for _ in range(30)
+        for _ in range(300)
     ]
     status_codes = [200, 201, 301, 400, 403, 404, 500, 502, 503]
 
